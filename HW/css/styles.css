@@ -1,0 +1,180 @@
+
+html {
+	font-size: 18px;
+}
+
+body {
+	background-color: #fff;
+	font-family: 'Lato', sans-serif;
+}
+
+.logomore {
+	margin-left: 160px;
+}
+
+.navbar-dark,.bg-dark,.navbar {
+	background-color: #4c5c69!important;
+	width: 100%;
+	justify-content: space-around;
+	padding: .5rem 3rem;
+}
+
+.navbar-dark .navbar-nav {
+	width: 100%;
+	justify-content: flex-end;
+	text-align: center;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+}
+.nav-link:hover,:active {
+	color: #fff;
+	/*padding-bottom: 0;*/
+	border-bottom: 2px solid #2f3942;
+}
+.container {
+	border-bottom: 1px solid #e8e8e8;
+	padding-bottom: 50px;
+
+}
+h3 .fas {
+	padding-right: 8px;
+    font-size: 1.1rem;
+    display: flex;
+    align-self: flex-end;
+}
+
+footer .fas {
+	padding-right: 12px;
+    font-size: 1.5rem;
+}
+.fa-cogs {
+    color: #297e39;
+}
+.fa-rss {
+    color: #e29f49;
+}
+.fa-twitter {
+    color: #386bb1;
+}
+
+h3 {
+	display: flex;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.1rem;
+	font-weight: normal;
+	color: #4c5b66;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+h4 {
+	font-size: 0.833rem;
+	color: #5c5c5c;
+}
+
+p {
+	font-size: 0.72rem;
+	color: #888888;
+}
+
+.link {
+	color: #3c92d0;
+}
+
+.date {
+	color: #b0b0b0;
+	font-size: 0.62rem;
+}
+
+.lowLink {
+	font-size: 0.72rem;
+}
+.mr-3 {
+	border: 1px solid #f2f2f2;
+	padding: 3px;
+	box-shadow: 1px 1px 5px #d9d9d9;
+	margin: 25px auto;
+}
+.rss {
+	border: 1px solid #f2f2f2;
+	padding: 3px;
+	box-shadow: 1px 1px 5px #d9d9d9;
+	margin: 25px auto;
+}
+
+.media-body {
+	margin-left: 30px;
+}
+
+.authorName {
+	color: #515151;
+}
+.authorName~a {
+	color: #3f97d3;
+}
+footer {
+	max-width: 978px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+}
+.footerCopyright {
+	color: #8a8a8a;
+	font-size: 0.72rem;
+	text-align: left;
+	order: 1;
+}
+.footerIcons {
+	text-align: right;
+	order: 2;
+}
+.fa-apple {
+    color: #000;
+    font-size: 36px;
+}
+.fa-vk {
+    color: #4c75a3;
+    font-size: 36px;
+}
+.fa-facebook {
+    color: f09a;
+    font-size: 36px;
+}
+.fa-soundcloud {
+    color: #000;
+    font-size: 36px;
+}
+@media (max-width: 970px){
+	h3.col-12 {
+		font-size: 1.45rem;
+	}
+	.footerCopyright {
+	font-size: 0.83rem;
+	}
+	footer .fas {
+		font-size: 3rem;
+	}
+	#mobileAddBorder {
+		padding-bottom: 30px;
+		border-bottom: 1px solid #e8e8e8;
+	}
+
+}
+@media (max-width: 576px){
+	.footerCopyright {
+		order: 2;
+		text-align: center;
+	}
+	.footerIcons {
+		order: 1;
+		text-align: center;
+	}
+}
+$grid-breakpoints: (
+  xs: 0,
+  sm: 480px,
+  md: 760px,
+  lg: 970px
+)
