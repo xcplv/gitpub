@@ -1,0 +1,40 @@
+
+body {
+	width: 500px;
+	background-color: #DFD8DD;
+}
+a {
+	color: #5D0000;
+	text-decoration: none;
+}
+
+h1 {
+	color: white;
+	font-size: 40px;
+	border: groove;
+	border-color: #177FB5;
+	width: 205px;
+	font-family: arial;
+	background-image: url(https://telegraf.com.ua/files/2017/07/58fe599bc3618843468b47c1.jpg);
+
+}
+h2 {
+	color: #0529FB;
+	font-size: 40px;
+	border: dashed;
+	width: 330px;
+	padding: 10px;
+	margin: 15px;
+	background: #E5FB05;
+
+}
+h3 {
+	color: #D54AF3;
+		font-size: 30px;
+		font-family: Monotype Corsiva, Cursive;
+
+
+}
+#link {
+	text-decoration: underline;
+}
